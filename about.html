@@ -8,10 +8,14 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <style>
-    /* Remove the navbar's default rounded borders and increase the bottom margin */ 
+   /* Remove the navbar's default rounded borders and increase the bottom margin */ 
     .navbar {
-      margin-bottom: 50px;
+      margin-bottom: 0;
       border-radius: 0;
+    }
+
+    .navbar-nav {
+      margin-left: -15px;
     }
     
     /* Remove the jumbotron's default bottom margin */ 
@@ -28,6 +32,12 @@
     .panel {
       background-color: #daad27;
     }
+    
+    .slug {
+      margin: 50px 0;
+      padding: 0;
+    }
+
 
   </style>
 </head>
@@ -59,7 +69,22 @@
 </nav>
 
 <div class="container"> 
-  <h2>About Us</h2>
+<div class="row">
+  	<div class="col-sm-7">
+  		<h2>About Viner's Draftsman</h2>
+  		  <p>Viner's Draftsman is the collaboration of Director/Producer Ioannis Hansen and Cinematographer/Producer Shaun Falcone.</p>
+  	</div>
+  	<div class="col-sm-5">
+  		<div class="row">
+  			<h3>Ioannis Hansen &bull; <a href="https://www.imdb.com/name/nm8633214">imdb</a></h3>
+  			<p><img src="https://via.placeholder.com/175x200"></p>
+  		</div>
+  		<div class="row">	
+  			<h3>Shaun "Gish" Falcone &bull; <a href="https://www.imdb.com/name/nm3430503">imdb</a></h3>
+ 			<p><img src="https://via.placeholder.com/175x200"></p>
+  		</div>
+  </div>
+  </div>
 </div>
 
 <footer class="container-fluid text-center">
